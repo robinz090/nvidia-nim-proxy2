@@ -24,13 +24,13 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 // NOTE: NVIDIA's free catalog changes over time. If you get 404/410 errors,
 // verify the exact model ID at https://build.nvidia.com/models before using it here.
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'meta/llama-4-scout-17b-16e-instruct',
-  'gpt-4': 'meta/llama-4-maverick-17b-128e-instruct',
-  'gpt-4-turbo': 'mistralai/mistral-large-3-675b-instruct-2512',
+  'gpt-3.5-turbo': 'meta/llama-3.1-70b-instruct',
+  'gpt-4': 'nvidia/llama-3.3-nemotron-super-49b-v1.5',
+  'gpt-4-turbo': 'nvidia/nemotron-3-ultra-550b-a55b',
   'gpt-4o': 'deepseek-ai/deepseek-v4-flash',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'z-ai/glm-5.1'
+  'gemini-pro': 'moonshotai/kimi-k2.6'
 };
 
 // Health check endpoint
